@@ -25,4 +25,4 @@ Open `http://localhost:3000`.
 npm run build
 ```
 
-The static site is exported to `out/`. Do not commit `node_modules/`, `.next/`, or `out/`.
+The static site is exported to `out/`. This repository keeps `out/` committed so GitHub Pages can serve the generated static files directly if Pages is configured to deploy from the `main` branch root.
